@@ -150,6 +150,10 @@ if [ -e $HOME/.linuxbrew/bin/brew ]; then
     eval $($HOME/.linuxbrew/bin/brew shellenv)
 fi
 
+if [ -e $HOME/homebrew/bin/brew ]; then
+    eval $($HOME/homebrew/bin/brew shellenv)
+fi
+
 # Wasmer
 export WASMER_DIR="$HOME/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
