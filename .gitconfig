@@ -7,3 +7,5 @@
 	name = Yage Hu
 	email = yagejhu@gmail.com
 
+[init]
+	defaultBranch = main
